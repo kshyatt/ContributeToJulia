@@ -43,4 +43,14 @@ Ways you can contribute:
     when running test scripts - see Coverage.jl's README for more help.
     **You can contribute tests to improve test coverage**
 
-#### 
+### Packages looking for contributors
+
+#### [JuliaWeb/URIParser.jl](https://github.com/JuliaWeb/URIParser.jl)
+
+This package parses Uniform Resource Identifiers (URIs).
+More packages directly or indirectly dependent on this package than any other!
+
+#### [staticfloat/SHA.jl](https://github.com/staticfloat/SHA.jl)
+
+This package implements the "SHA" family of hashing functions.
+The second-most depedended-on package.
