@@ -79,9 +79,11 @@ make their job of accepting your changes as easy as possible. If you add code,
 make sure it has comments and tests, and describe as clearly as possible in
 the pull request what you are doing. In general you should **not** ask about
 what features you should implement - as a rule of thumb, only implement new
-features if you need them yourself. If your changes aren't immediately
-reviewed and accepted, don't take it personally: the maintainers might just
-be busy with their day-to-day work!
+features if you need them yourself. If you don't need it yourself then
+the time required for a package maintainer to identify and help you will
+probably be a bad use of everyones time - and someone has to maintain the new code.
+If your changes aren't immediately reviewed and accepted, don't take it
+personally: the maintainers might just be busy with their day-to-day work!
 
 These packages have all been listed because they are dependended on by
 many other packages, directly or indirectly, or are popular packages.
