@@ -103,9 +103,19 @@ Implements the "SHA" family of hashing functions.
 JSON parsing and printing.
 :book: :hourglass:
 
+##### [JuliaLang/DataStructures.jl](https://github.com/JuliaLang/DataStructures.jl)
+Implementations of common data structures.
+:white_check_mark: :hourglass:
+
+### Graphics and visulization packages
+
 ##### [JuliaLang/Color.jl](https://github.com/JuliaLang/Color.jl)
 Color manipulation functionality, used by many visualization packages.
 :white_check_mark:
+
+##### [dcjones/Compose.jl](https://github.com/dcjones/Compose.jl)
+Declarative vector graphics library, used by Gadfly and other packages.
+:book: :white_check_mark:
 
 ### WWW/Internet-related packages
 
