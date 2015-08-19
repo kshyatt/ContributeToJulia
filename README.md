@@ -73,6 +73,7 @@ The best ways you can contribute, in roughly increasing order of difficulty, are
 * fixing bugs mentioned in the issue tracker, (:bug:)
 * improving performance, (:hourglass:)
 * and adding new features.
+
 Almost all packages are developed by volunteers who have minimal spare time, so
 make their job of accepting your changes as easy as possible. If you add code,
 make sure it has comments and tests, and describe as clearly as possible in
