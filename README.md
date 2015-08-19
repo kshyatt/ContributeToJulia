@@ -91,16 +91,13 @@ If you are a package owner and would like to add your package here, please
 submit a pull request.
 
 Key:
-* :white_check_mark: (has below 90% test coverage)
-* :book: (documentation/examples are minimal)
+* :white_check_mark: (has below 95% test coverage)
+* :book: (code comments/documentation/examples are minimal)
 * :hourglass: (possibility of performance improvements)
 * :bug: (has bugs that need triaging and fixing)
 
-### Miscellaneous packages
 
-##### [staticfloat/SHA.jl](https://github.com/staticfloat/SHA.jl)
-Implements the "SHA" family of hashing functions.
-:white_check_mark:
+### Miscellaneous packages
 
 ##### [JuliaLang/JSON.jl](https://github.com/JuliaLang/JSON.jl)
 JSON parsing and printing.
@@ -109,6 +106,7 @@ JSON parsing and printing.
 ##### [JuliaLang/DataStructures.jl](https://github.com/JuliaLang/DataStructures.jl)
 Implementations of common data structures.
 :white_check_mark: :hourglass:
+
 
 ### Graphics and visulization packages
 
@@ -119,6 +117,7 @@ Color manipulation functionality, used by many visualization packages.
 ##### [dcjones/Compose.jl](https://github.com/dcjones/Compose.jl)
 Declarative vector graphics library, used by Gadfly and other packages.
 :book: :white_check_mark:
+
 
 ### WWW/Internet-related packages
 
