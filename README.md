@@ -12,6 +12,11 @@ packages, educational material, and more. You can contribute to this document by
 [editing this file](https://github.com/IainNZ/ContributeToJulia/edit/master/README.md)
 in your browser and submitting a pull request.
 
+## Help out with base Julia
+
+Julia needs lots of tests! We have an [issue](https://github.com/JuliaLang/julia/issues/11885)
+open about Julia's test coverage to help you get started and track our progress.
+
 ## Help out with core packages
 
 Julia includes a standard library, `Base`, with a lot of useful functionality.
