@@ -60,23 +60,45 @@ you think something is not explained clearly or correctly, please submit an
 improved version.
 
 
-## Help out with core packages
+## Help out with packages
 
 Julia includes a standard library, `Base`, with a lot of useful functionality.
-Lots of important functionality lives outside of `Base` in various packages, many of which
-are small enough for even a new user to understand. Contributing to these packages will
-benefit large numbers of people, as they are depended on by large numbers of other packages
-directly and indirectly.
+However large amounts of important functionality lives outside of `Base` in
+various packages, many of which are small enough for even a new user to understand.
+Contributing to these packages will benefit large numbers of people, as they are
+depended on by large numbers of other packages directly and indirectly.
+The best ways you can contribute, in roughly increasing order of difficulty, are:
+* adding or clarifying documentation, (:book:)
+* adding tests to improve coverage, (:white_check_mark:)
+* fixing bugs mentioned in the issue tracker, (:bug:)
+* improving performance, (:hourglass:)
+* and adding new features.
+Almost all packages are developed by volunteers who have minimal spare time, so
+make their job of accepting your changes as easy as possible. If you add code,
+make sure it has comments and tests, and describe as clearly as possible in
+the pull request what you are doing. In general you should **not** ask about
+what features you should implement - as a rule of thumb, only implement new
+features if you need them yourself. If your changes aren't immediately
+reviewed and accepted, don't take it personally: the maintainers might just
+be busy with their day-to-day work!
+
+These packages have all been listed because they are dependended on by
+many other packages, directly or indirectly, or are popular packages.
+If you are a package owner and would like to add your package here, please
+submit a pull request.
 
 
-### Packages looking for contributors
+### WWW/Internet-related packages
 
 #### [JuliaWeb/URIParser.jl](https://github.com/JuliaWeb/URIParser.jl)
-
-This package parses Uniform Resource Identifiers (URIs).
+Parses Uniform Resource Identifiers (URIs).
 More packages directly or indirectly dependent on this package than any other!
 
-#### [staticfloat/SHA.jl](https://github.com/staticfloat/SHA.jl)
+#### [JuliaWeb/HttpCommon.jl](https://github.com/JuliaWeb/HttpCommon.jl)
+Types and functions for working with HTTP.
 
-This package implements the "SHA" family of hashing functions.
-The second-most depedended-on package.
+### General packages
+
+##### [staticfloat/SHA.jl](https://github.com/staticfloat/SHA.jl)
+Implements the "SHA" family of hashing functions.
+
