@@ -3,14 +3,16 @@
 <a href="http://julialang.org/" target="_blank">
 <img src="http://julialang.org/images/logo_hires.png" alt="Julia Logo" width="210" height="142"></img>
 </a>
+<br>
+Contributing To Julia
 </div>
 
-# Contributing To Julia
 
 This document tracks some ways to get involved in the Julia ecosystem - the language itself,
 packages, educational material, and more. You can contribute to this document by
 [editing this file](https://github.com/IainNZ/ContributeToJulia/edit/master/README.md)
 in your browser and submitting a pull request.
+
 
 ###  Some concepts and terminology
 
@@ -25,8 +27,8 @@ a new feature we aim to make sure that there are tests for it.
 
 **Continuous integration**: While we could rely on contributors running tests before
 they submit changes, there can be various reasons why even if someone does run tests
-that the changes might not work on another machine. Julia and many packages use at
-least one *continuous integration* service to ensure that all changes pass tests
+that the changes might not work on another machine. Julia itself and many packages use
+at least one *continuous integration* service to ensure that all changes pass tests
 at all times. These services automatically pull the code from Github and run the
 tests on fresh virtual machine, and then report back whether they failed or not.
 The popular service is [TravisCI](http://travis-ci.org), and packages will often have
@@ -34,25 +36,29 @@ a "badge" like this:
 [![Build Status](https://travis-ci.org/JuliaLang/JSON.jl.svg)](https://travis-ci.org/JuliaLang/JSON.jl))
 in their README to show their tests are passing (or not).
 
-  * Even if tests are passing, the tests may not be checking all possible ways the package can
-    be used - possibly missing broken code! Julia can track which lines of code are executed in
-    the package in the course of running the existing tests (the "test coverage"). Many packages
-    automatically track their coverage using the [Coverage.jl](https://github.com/IainNZ/Coverage.jl)
-    package and websites like [Codecov.io](http://codecov.io), and put a "badge" in their READMEs to
-    track their coverage percentage (like this:
-      [![JSON.jl's coverage](http://codecov.io/github/JuliaLang/JSON.jl/coverage.svg?branch=master)](http://codecov.io/github/JuliaLang/JSON.jl?branch=master)).
-    You can also get coverage reports locally by passing the `--code-coverage` flag to Julia
-    when running test scripts - see Coverage.jl's README for more help.
-    **You can contribute tests to improve test coverage**
-
+**Code coverage**: Even if tests are passing, the tests may not be checking all
+possible ways the package can be used, and we might be missing broken code.
+Julia can track the lines of code are executed when running a script by using a
+command-line option: ``julia --code-coverage=user test/runtests.jl``.
+This outputs a `.cov` file for every `.jl` file executed, with a count by each
+line for how many times it was executed. Julia itself and many packages automatically
+track their coverage by using [Coverage.jl](https://github.com/IainNZ/Coverage.jl)
+to upload summaries of the `.cov` files to websites like
+[Codecov.io](http://codecov.io) that display the coverage information in a color-coded
+easy-to-read way. Many packages put a badge in their READMEs like this:
+[![JSON.jl's coverage](http://codecov.io/github/JuliaLang/JSON.jl/coverage.svg?branch=master)](http://codecov.io/github/JuliaLang/JSON.jl?branch=master)).
 
 
 ## Help out with Julia itself
 
-Developing new features or fixing bugs can be a tough way start, so we recommend getting
-started by adding "tests" - and Julia needs lots of tests!
-We have an [issue](https://github.com/JuliaLang/julia/issues/11885)
-open about Julia's test coverage to help you get started and to track overall progress.
+Developing new features or fixing bugs can be a tough way start, so we recommend
+getting started by adding **tests** - Julia needs lots of tests!
+We have an [issue](https://github.com/JuliaLang/julia/issues/11885) to track
+Julia's test coverage, to help you get started, and to track overall progress.
+Documentation of functions and the manual can always be improved as well. If
+you think something is not explained clearly or correctly, please submit an
+improved version.
+
 
 ## Help out with core packages
 
