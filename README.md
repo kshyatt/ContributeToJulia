@@ -68,8 +68,8 @@ various packages, many of which are small enough for even a new user to understa
 Contributing to these packages will benefit large numbers of people, as they are
 depended on by large numbers of other packages directly and indirectly.
 The best ways you can contribute, in roughly increasing order of difficulty, are:
-* adding or clarifying documentation, (:book:)
-* adding tests to improve coverage, (:white_check_mark:)
+* adding or clarifying documentation, adding comments in code, (:book:)
+* adding missing tests to improve coverage, (:white_check_mark:)
 * fixing bugs mentioned in the issue tracker, (:bug:)
 * improving performance, (:hourglass:)
 * and adding new features.
@@ -88,17 +88,31 @@ If you are a package owner and would like to add your package here, please
 submit a pull request.
 
 
-### WWW/Internet-related packages
-
-#### [JuliaWeb/URIParser.jl](https://github.com/JuliaWeb/URIParser.jl)
-Parses Uniform Resource Identifiers (URIs).
-More packages directly or indirectly dependent on this package than any other!
-
-#### [JuliaWeb/HttpCommon.jl](https://github.com/JuliaWeb/HttpCommon.jl)
-Types and functions for working with HTTP.
-
 ### General packages
 
 ##### [staticfloat/SHA.jl](https://github.com/staticfloat/SHA.jl)
 Implements the "SHA" family of hashing functions.
+:white_check_mark:
 
+##### [JuliaLang/JSON.jl](https://github.com/JuliaLang/JSON.jl)
+JSON parsing and printing.
+:white_check_mark: :book: :hourglass:
+
+
+### WWW/Internet-related packages
+
+##### [JuliaWeb/URIParser.jl](https://github.com/JuliaWeb/URIParser.jl)
+Parses Uniform Resource Identifiers (URIs).
+More packages directly or indirectly dependent on this package than any other!
+:white_check_mark:
+
+##### [JuliaWeb/HttpCommon.jl](https://github.com/JuliaWeb/HttpCommon.jl)
+Types and functions for working with HTTP.
+:white_check_mark: :bug:
+
+
+### Statistics packages
+
+##### [JuliaStats/StatsBase.jl](https://github.com/JuliaStats/StatsBase.jl)
+Functionality shared across statistics-related packages.
+:white_check_mark:
