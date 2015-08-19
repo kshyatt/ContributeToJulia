@@ -87,8 +87,13 @@ many other packages, directly or indirectly, or are popular packages.
 If you are a package owner and would like to add your package here, please
 submit a pull request.
 
+Key:
+* :white_check_mark: (has below 90% test coverage)
+* :book: (documentation/examples are minimal)
+* :hourglass: (possibility of performance improvements)
+* :bug: (has bugs that need triaging and fixing)
 
-### General packages
+### Miscellaneous packages
 
 ##### [staticfloat/SHA.jl](https://github.com/staticfloat/SHA.jl)
 Implements the "SHA" family of hashing functions.
@@ -96,8 +101,11 @@ Implements the "SHA" family of hashing functions.
 
 ##### [JuliaLang/JSON.jl](https://github.com/JuliaLang/JSON.jl)
 JSON parsing and printing.
-:white_check_mark: :book: :hourglass:
+:book: :hourglass:
 
+##### [JuliaLang/Color.jl](https://github.com/JuliaLang/Color.jl)
+Color manipulation functionality, used by many visualization packages.
+:white_check_mark:
 
 ### WWW/Internet-related packages
 
